@@ -1,0 +1,8 @@
+beautifulsoup4
+csv
+datetime
+pydig
+requests
+socket
+urllib3
+python-whois
