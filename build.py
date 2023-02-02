@@ -62,7 +62,7 @@ def pull(domain, is_ns):
  ]
  print(data)
  update_recs(data)
- #return data
+ # return data
 
 def get_domain_names(url):
     response = requests.get(url)
@@ -84,7 +84,7 @@ def pull_from_url(url):
                 get_domain_names(domain)
             pull(domain, 0)
 
-#print(pull(domain))
+# print(pull(domain))
 load_recs()
 
 pull(domain, 0)
@@ -97,4 +97,4 @@ pull("ns2.example.org", 1)
 
 pull_from_url("http://reedmedia.net")
 pull_from_url("http://godotbites.com")
-pull_from_url("http://raylib.com")
+# pull_from_url("http://raylib.com") # uncomment me for a larger pull
