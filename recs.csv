@@ -1,4 +1,1 @@
-domain,cname,registrar,issued,expires,ip,ns,rectime,is_ns
-ns.thechamps.co.,['71.19.154.14'],[],,,,['71.19.154.14'],[],2023-02-02 09:23:05.136073,1
-ns2.thechamps.co.,['108.161.137.72'],[],,,,['108.161.137.72'],[],2023-02-02 09:23:05.346116,1
-thechamps.co,['71.19.154.14'],[],"GoDaddy.com, LLC",2020-05-27 03:00:43,,['71.19.154.14'],"['ns.thechamps.co.', 'ns2.thechamps.co.']",2023-02-02 09:23:05.470573,0
+domain,ip,cnames,registrar,issued,expires,ns,server,rectime,is_ns

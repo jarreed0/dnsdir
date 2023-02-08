@@ -39,8 +39,21 @@ def get_domains_for_ns(ns):
     print("Finding all domains and nameservers for IP:", ns)
     print("Domains:", domains)
 
+def get_ns_no_ip():
+    ns = []
+    with open('recs.csv', mode='r') as file:
+        reader = csv.DictReader(file)
+        for row in reader:
+            if row['is_ns'] == 1 or row['is_ns'] == "1":
+                if row['ip'] == "" or row['ip'] == None:
+                    domains.append(row['domain'])
+    print("Finding NSs without IPs")
+    print("NS:", ns)
+
 find_ips_and_ns_for_domain("example.com")
 
 get_domains_and_ns_for_ip("71.19.154.14")
 
 get_domains_for_ns("ns2.example.org")
+
+get_ns_no_ip()
