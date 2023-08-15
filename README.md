@@ -1,5 +1,3 @@
-tor test
-
 # dnsdir
 
 creating a directory of dns records
