@@ -1,3 +1,5 @@
+this is a test
+
 # dnsdir
 
 creating a directory of dns records
